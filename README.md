@@ -42,6 +42,7 @@ file[]: File content
 
 key: API key - random data to md5 - json output returned for any random key, otherwise html if ommited.
 
+unzip: Password to unzip encrypted archive containing the sample (optional).
 
 Poll for reports:
 -----------------
