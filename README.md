@@ -1,7 +1,7 @@
 # QuickSand.io API
 <img src="https://quicksand.io/images/Quicksand/Icon_Colour/Quicksand-Icon-Colour.png" height="250"><img src="https://quicksand.io/images/quicksand.png" height="250">
 
-API access to QuickSand.io. Tools to follow.
+API access to QuickSand.io. Python command line file uploader (support for password protected zip uploads), and command line report search.
 
 Find reports by sha256:
 -----------------------
