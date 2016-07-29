@@ -1,5 +1,7 @@
-# quicksand_tools
-API access to QuickSand.io
+# QuickSand.io API
+<img src="https://quicksand.io/images/Quicksand/Icon_Colour/Quicksand-Icon-Colour.png" height="250">
+
+API access to QuickSand.io. Tools to follow.
 
 Find reports by sha256:
 -----------------------
@@ -57,9 +59,9 @@ A successful result will be a redirect to the static json url of the next report
 No more reports will return json 'result' = 0.
 
 
-
-
 Limits
 ------
 
 File uploads limited to approximately 12mb.
+
+
