@@ -40,6 +40,8 @@ POST https://www.quicksand.io/upload.php
 
 file[]: File content
 
+key: API key - random data to md5 - json output returned for any random key, otherwise html if ommited.
+
 
 Poll for reports:
 -----------------
