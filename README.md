@@ -44,6 +44,10 @@ key: API key - random data to md5 - json output returned for any random key, oth
 
 unzip: Password to unzip encrypted archive containing the sample (optional).
 
+QUICKSAND_BRUTE: 1 - Brute force 1 byte keys with ROL 1-7.
+
+QUICKSAB_LOOKAHEAD: 1 Try XOR lookahead algo - xorla.
+
 Poll for reports:
 -----------------
 
