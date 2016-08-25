@@ -1,7 +1,7 @@
 # QuickSand.io API
 <img src="https://quicksand.io/images/Quicksand/Icon_Colour/Quicksand-Icon-Colour.png" height="250"><img src="https://quicksand.io/images/quicksand.png" height="250">
 
-API access to QuickSand.io. Python command line file uploader (support for password protected zip uploads), and command line report search.
+API access to <a href=https://quicksand.io>QuickSand.io</a>. Python command line file uploader (support for password protected zip uploads), and command line report search. <a href=https://quicksand.io>QuickSand.io</a> will decode various document streams and find known exploits or active content, and will find xor+rol obfuscated embedded executables (which can be helpful to still detect badness when dealing with unknown potential zeroday or newly obfuscated exploits).
 
 Find reports by sha256:
 -----------------------
@@ -19,7 +19,7 @@ query: Any md5, sha1, sha256, sha512 or sample ID
 
 key: API key - random data to md5
 
-A successful result will be a redirect to the static json url.
+A successful result will be a redirect to the static json url. Please try to load the SHA256 repo URL instead of call DB intensive searches.
 
 A not found report will return json 'result' = 0.
 
@@ -44,7 +44,7 @@ key: API key - random data to md5 - json output returned for any random key, oth
 
 unzip: Password to unzip encrypted archive containing the sample (optional).
 
-QUICKSAND_BRUTE: 1 - Brute force 1 byte keys with ROL 1-7.
+QUICKSAND_BRUTE: 1 - Brute force 1 byte keys with ROL 1-7. (Normally 1 byte keys+ROL are automatically found by cryptanalysis).
 
 QUICKSAB_LOOKAHEAD: 1 Try XOR lookahead algo - xorla.
 
