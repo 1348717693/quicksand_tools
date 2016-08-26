@@ -46,7 +46,9 @@ unzip: Password to unzip encrypted archive containing the sample (optional).
 
 QUICKSAND_BRUTE: 1 - Brute force 1 byte keys with ROL 1-7. (Normally 1 byte keys+ROL are automatically found by cryptanalysis).
 
-QUICKSAB_LOOKAHEAD: 1 Try XOR lookahead algo - xorla.
+QUICKSAND_LOOKAHEAD: 1 Try XOR lookahead algo - xorla.
+
+QUICKSAND_RERUN: 1 rerun sample even if it already exists.
 
 Poll for reports:
 -----------------
