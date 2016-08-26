@@ -8,6 +8,8 @@ Find reports by sha256:
 
 Try https://repo.quicksand.io/ **sha256** .json
 
+Submissions for more recent samples are stored in https://repo.quicksand.io/ **sha256** -events.json
+
 Search reports by any hash:
 ---------------------------
 
