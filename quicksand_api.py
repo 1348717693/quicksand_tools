@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 
 files = {'file[]': open(args.file, 'rb')}
-values = {'key': args.key}
+values = {'key': args.key, 'QUICKSAND_RERUN': '1'., 'QUICKSAND_LOOKAHEAD': '0', 'QUICKSAND_BRUTE': '0'}
 if args.password:
   values['unzip'] = args.password
 
